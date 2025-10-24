@@ -7,6 +7,7 @@ const client = new Client({
 });
 
 client.commands = new Collection();
+client.cooldowns = new Collection();
 
 ["commands", "events"].forEach((handler) => {
    require(`./handlers/${handler}`)(client);
