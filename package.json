@@ -1,0 +1,27 @@
+{
+   "name": "game-bot",
+   "version": "1.0.0",
+   "description": "",
+   "main": "./src/main.js",
+   "scripts": {
+      "start": "node .",
+      "dev": "nodemon"
+   },
+   "dependencies": {
+      "discord.js": "^14.23.2",
+      "dotenv": "^17.2.3"
+   },
+   "devDependencies": {
+      "nodemon": "^3.1.10"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/phucho0237/game-bot.git"
+   },
+   "bugs": {
+      "url": "https://github.com/phucho0237/game-bot/issues"
+   },
+   "homepage": "https://github.com/phucho0237/game-bot#readme",
+   "author": "Nhu Phuc (phucho0237@gmail.com)",
+   "license": "MIT"
+}
