@@ -29,7 +29,7 @@ const rest = new REST().setToken(config.bot.token);
 
 (async () => {
    try {
-      console.log(`Start refresing ${commands.length} command (/) of app.`);
+      console.log(`Start refreshing ${commands.length} command (/) of app.`);
 
       const data = await rest.put(
          Routes.applicationGuildCommands(
@@ -39,7 +39,7 @@ const rest = new REST().setToken(config.bot.token);
          { body: commands }
       );
 
-      console.log(`Sucessfully refesh ${data.length} command.`);
+      console.log(`Successfully refresh ${data.length} command.`);
    } catch (err) {
       console.error(err);
    }
