@@ -8,11 +8,17 @@
       "dev": "nodemon",
       "deploy": "node deploy-commands.js"
    },
+   "config": {
+      "commitizen": {
+         "path": "./node_modules/cz-conventional-changelog"
+      }
+   },
    "dependencies": {
       "discord.js": "^14.23.2",
       "dotenv": "^17.2.3"
    },
    "devDependencies": {
+      "cz-conventional-changelog": "^3.3.0",
       "nodemon": "^3.1.10"
    },
    "repository": {
