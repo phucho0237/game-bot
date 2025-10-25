@@ -14,12 +14,14 @@
       }
    },
    "dependencies": {
+      "@prisma/client": "^6.18.0",
       "discord.js": "^14.23.2",
       "dotenv": "^17.2.3"
    },
    "devDependencies": {
       "cz-conventional-changelog": "^3.3.0",
-      "nodemon": "^3.1.10"
+      "nodemon": "^3.1.10",
+      "prisma": "^6.18.0"
    },
    "repository": {
       "type": "git",
