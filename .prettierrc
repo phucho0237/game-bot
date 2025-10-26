@@ -1,4 +1,3 @@
 {
-   "plugins": ["prettier-plugin-prisma"],
    "tabWidth": 3
 }
