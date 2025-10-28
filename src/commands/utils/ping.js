@@ -7,7 +7,7 @@ const {
 module.exports = {
    data: new SlashCommandBuilder()
       .setName("ping")
-      .setDescription("Check the bot's ping."),
+      .setDescription("Check the bot's ping"),
    /**
     *
     * @param {ChatInputCommandInteraction} interaction
@@ -33,7 +33,7 @@ module.exports = {
                   .setColor("#4287F5")
                   .setTitle("🏓 Pong!")
                   .setDescription(
-                     `Websocket latency: **${interaction.client.ws.ping}ms**\nRoundtrip latency: **${roundtripLatency}ms**`
+                     `Websocket latency: **${interaction.client.ws.ping}ms**\nRoundtrip latency: **${roundtripLatency}ms**`,
                   ),
             ],
          });
